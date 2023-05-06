@@ -9,8 +9,7 @@ element.addEventListener('wheel', (event) => {
   });
 });
 
-<script>
-    function voltarInicio() {
-        window.history.back()
-    }
-</script>
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

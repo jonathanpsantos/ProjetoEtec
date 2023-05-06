@@ -152,3 +152,15 @@ body {
   padding: 2rem 3rem;
   margin: 2rem 1rem;
 }
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: #3a3a3a;
+  color: white;
+}
