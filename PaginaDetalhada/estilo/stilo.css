@@ -131,7 +131,7 @@
  .sinopse{
    
     margin-top: 30px;
-    width: 90%;
+    width: 100%;
     height: 215px;
     top: 218px;
     text-align: center;
@@ -144,7 +144,7 @@
         font-family: Libre Franklin;
         font-size: 26px;
         font-weight: 700;
-        line-height: 32px;
+        line-height: 42px;
         letter-spacing: 0em;
         margin-top: 30px;
     
@@ -223,7 +223,7 @@ body {
    gap: 5rem;
  }
  
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
    .agrupa_livros {
       flex-direction: column;
    }

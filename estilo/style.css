@@ -73,6 +73,9 @@ body {
 }
 
 .titulo {
+  font-weight: 500;
+  font-family: 'Libre Franklin';
+  font-style: normal;
   margin-bottom: 1.25rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
