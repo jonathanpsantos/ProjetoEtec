@@ -131,7 +131,7 @@
  .sinopse{
    
     margin-top: 30px;
-    width: 90%;
+    width: 100%;
     height: 215px;
     top: 218px;
     text-align: center;
@@ -144,7 +144,7 @@
         font-family: Libre Franklin;
         font-size: 26px;
         font-weight: 700;
-        line-height: 32px;
+        line-height: 42px;
         letter-spacing: 0em;
         margin-top: 30px;
     
@@ -186,7 +186,7 @@
    font-style: normal;
    font-weight: 500;
    font-size: 18px;
-   color: #222527;
+   padding: 100px;
    }
 .ano_lanca{
     
@@ -195,8 +195,35 @@
    
 }
 
+body {
+   padding: 25px;
+   background-color: white;
+   color: black;
+   font-size: 25px;
+ }
  
-@media only screen and (max-width: 1300px) {
+ .dark-mode {
+   background-color: #3a3a3a;
+   color: white;
+ }
+ .header-container {
+   display: flex;
+   padding: 1rem;
+   padding-bottom: 1.25rem;
+   padding-left: 3rem;
+   justify-content: space-between;
+   border-bottom: 1px solid #d1d5db;
+ }
+
+
+ .nav-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5rem;
+ }
+ 
+@media only screen and (max-width: 1200px) {
    .agrupa_livros {
       flex-direction: column;
    }
